@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import NoteList from "./components/Notelist";
 import NoteEditor from "./components/NoteEditor";
-import "./app.css";
+import "./App.css";
 
 export default function App() {
   const [notes, setNotes] = useState(() => {
